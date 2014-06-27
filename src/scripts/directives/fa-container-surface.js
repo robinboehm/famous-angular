@@ -43,7 +43,7 @@ angular.module('famous.angular')
 
             scope.$on('unregisterChild', function(evt, data){
                 //TODO:  support removing children
-                throw "unimplemented: fa-container-surface does not support removing children"
+                throw new Error("unimplemented: fa-container-surface does not support removing children");
             })
 
           },
